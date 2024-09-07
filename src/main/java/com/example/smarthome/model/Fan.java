@@ -2,7 +2,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Fan implements Appliance {
-    private int speed; // 0 = off, 1 = low, 2 = high
+    private int speed;  // 0 = off, 1 = low, 2 = high
 
     @Override
     public void turnOn() {
